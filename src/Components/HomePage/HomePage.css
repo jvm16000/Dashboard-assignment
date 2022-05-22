@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.main {
+    /* min-height: 93vh; */
+    /* display: flex; */
+    /* align-items: center; */
+    background-image: url('../../image2.png');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.input {
+    width: 60%;
+    float: left;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.card {
+    min-height: 780px;
+    /* background-color: aqua; */
+    padding-top: 7%;
+    padding-left: 10%;
+    border-radius: 5px;
+}
+
+
+.text {
+    font-family: "Roboto";
+    text-align: left;
+    font-size: large;
+    margin-bottom: 2rem;
+}
+
+.checkbox {
+    font-family: "Roboto";
+    float: left;
+}
+
+.card-button {
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4da6ff;
+    font-family: "Roboto";
+    float: left;
+}
+
+.card-text {
+    margin-top: 80%;
+}
+
+.card-text-head {
+    font-family: "Roboto";
+    font-size: x-large;
+    margin-bottom: 0;
+    margin-right: 3rem;
+}
+
+.card-text-data {
+    font-family: "Roboto";
+    color: #bfbfbf;
+    /* max-width: 40%; */
+    /* padding-left: 10%; */
+    margin-left: 16%;
+    margin-right: 25%;
+}
+
+.ant-form-item-label>label {
+    font-family: "Roboto";
+    color: #bfbfbf;
+}
+
+.ant-input-group .ant-input {
+    width: 60%;
+    float: left;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.ant-form-item-explain-error {
+    float: left;
+}
